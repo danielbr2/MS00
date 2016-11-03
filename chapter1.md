@@ -4,7 +4,7 @@ description :
 attachments :
   slides_link : 
 
---- type:NormalExercise lang:r xp:100 skills:1,3
+--- type:NormalExercise lang:r xp:100 skills:1,3 key:8d0856448e
 ## Eingabe von Vektoren
 
 Geben Sie die vorliegenden Daten des Autodatensatzes jeweils als Vektor in die Software R ein.
@@ -47,7 +47,7 @@ test_object("kilometer",
 success_msg("Richtig! Weiter zur nächsten Aufgabe...")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1,3
+--- type:NormalExercise lang:r xp:100 skills:1,3 key:2e16bca03f
 ## Eingabe von Matrizen
 
 Geben Sie die vorliegenden Daten Matrix mit dem Namen 'testMatrix' ein.
@@ -84,7 +84,7 @@ success_msg("Richtig! Weiter zur nächsten Aufgabe...")
 
 
 
---- type:NormalExercise lang:r xp:100 skills:1,3
+--- type:NormalExercise lang:r xp:100 skills:1,3 key:7fff6257cd
 ## Eingabe von Datensätzen
 
 Geben Sie die vorliegenden Daten nun als data.frame mit dem Namen 'testDataframe' ein.
