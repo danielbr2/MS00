@@ -4,14 +4,16 @@ description :
 attachments :
   slides_link : 
 
---- type:NormalExercise lang:r xp:100 skills:1,3 key:8d0856448e
+--- type:NormalExercise lang:r xp:100 skills:1,3 key:02429cb8ed
 ## Eingabe von Vektoren
 
 Geben Sie die vorliegenden Daten des Autodatensatzes jeweils als Vektor in die Software R ein.
 
-Preis:         850,   4400, 14250
-Alter:          14,      8,     2
-Kilometer:  252000, 189000,  8600
+Preis: 850, 4400, 14250
+
+Alter: 14, 8, 2
+
+Kilometer: 252000, 189000, 8600
 
 Benennen Sie die Variablen mit 'preis', 'alter' und 'kilometer'
 
@@ -47,7 +49,7 @@ test_object("kilometer",
 success_msg("Richtig! Weiter zur nächsten Aufgabe...")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1,3 key:2e16bca03f
+--- type:NormalExercise lang:r xp:100 skills:1,3 key:7aebe50357
 ## Eingabe von Matrizen
 
 Geben Sie die vorliegenden Daten Matrix mit dem Namen 'testMatrix' ein.
@@ -84,7 +86,7 @@ success_msg("Richtig! Weiter zur nächsten Aufgabe...")
 
 
 
---- type:NormalExercise lang:r xp:100 skills:1,3 key:7fff6257cd
+--- type:NormalExercise lang:r xp:100 skills:1,3 key:0d6d0b19b4
 ## Eingabe von Datensätzen
 
 Geben Sie die vorliegenden Daten nun als data.frame mit dem Namen 'testDataframe' ein.
