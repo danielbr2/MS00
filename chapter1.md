@@ -47,9 +47,8 @@ test_object("kilometer",
             undefined_msg = "Hier hat etwas nicht geklappt. Versuchen Sie es erneut!",
             incorrect_msg = "Es wurden falsche Werte zugewiesen.")
             
-
-success_msg("Good work!")            
-#success_msg("Richtig! Weiter zur nächsten Aufgabe...")
+#success_msg("Good work!")            
+success_msg("Richtig! Weiter gehts...")
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1,3 key:7aebe50357
