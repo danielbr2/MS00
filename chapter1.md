@@ -9,7 +9,7 @@ attachments :
 
 Geben Sie die vorliegenden Daten des Autodatensatzes jeweils als Vektor in die Software R ein.
 
-Preis: 850, 4400, 14250
+Preis: 850, 4400, 14250 
 
 Alter: 14, 8, 2
 
@@ -46,7 +46,10 @@ test_object("alter",
 test_object("kilometer",
             undefined_msg = "Hier hat etwas nicht geklappt. Versuchen Sie es erneut!",
             incorrect_msg = "Es wurden falsche Werte zugewiesen.")
-success_msg("Richtig! Weiter zur nächsten Aufgabe...")
+            
+
+success_msg("Good work!")            
+#success_msg("Richtig! Weiter zur nächsten Aufgabe...")
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1,3 key:7aebe50357
@@ -54,9 +57,11 @@ success_msg("Richtig! Weiter zur nächsten Aufgabe...")
 
 Geben Sie die vorliegenden Daten Matrix mit dem Namen 'testMatrix' ein.
 
-Preis:         850,   4400, 14250
-Alter:          14,      8,     2
-Kilometer:  252000, 189000,  8600
+Preis: 850, 4400, 14250 
+
+Alter: 14, 8, 2
+
+Kilometer: 252000, 189000, 8600
 
 *** =hint
 
@@ -91,9 +96,11 @@ success_msg("Richtig! Weiter zur nächsten Aufgabe...")
 
 Geben Sie die vorliegenden Daten nun als data.frame mit dem Namen 'testDataframe' ein.
 
-Preis:         850,   4400, 14250
-Alter:          14,      8,     2
-Kilometer:  252000, 189000,  8600
+Preis: 850, 4400, 14250 
+
+Alter: 14, 8, 2
+
+Kilometer: 252000, 189000, 8600
 
 *** =hint
 
