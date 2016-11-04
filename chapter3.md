@@ -32,4 +32,5 @@ summary(datensatz)
 *** =sct
 ```{r}
 test_function_result("summary")
+success_msg("Richtig! Weiter gehts...")
 ```

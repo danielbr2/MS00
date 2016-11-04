@@ -13,9 +13,10 @@ attachments :
 Geben Sie die vorliegenden Daten des Autodatensatzes jeweils als Vektor in die Software R ein.
 
 Preis: 850, 4400, 14250 
-Alter: 14, 8, 2
-Kilometer: 252000, 189000, 8600
 
+Alter: 14, 8, 2
+
+Kilometer: 252000, 189000, 8600
 
 
 *** =hint
@@ -63,7 +64,9 @@ success_msg("Richtig! Weiter gehts...")
 Geben Sie die vorliegenden Daten als Matrix ein.
 
 Preis: 850, 4400, 14250 
+
 Alter: 14, 8, 2
+
 Kilometer: 252000, 189000, 8600
 
 
@@ -110,8 +113,11 @@ success_msg("Richtig! Weiter gehts...")
 Geben Sie die vorliegenden Daten als data.frame ein.
 
 Preis: 850, 4400, 14250 
+
 Alter: 14, 8, 2
+
 Kilometer: 252000, 189000, 8600
+
 
 
 *** =hint
