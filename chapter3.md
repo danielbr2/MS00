@@ -25,6 +25,7 @@ Lesen Sie den Datensatz ein und verschaffen Sie sich einen Überblick.
 
 *** =solution
 ```{r}
+datensatz <-read.csv( 'http://s3.amazonaws.com/assets.datacamp.com/production/course_2115/datasets/Datensatz_A1.csv' , sep= ';')
 summary(datensatz)
 ```
 
