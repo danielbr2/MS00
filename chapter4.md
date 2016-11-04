@@ -1,6 +1,6 @@
 ---
 title       : Subsetting
-description : Üben Sie hier den Zugriff auf verschiedene Datenstrukturen
+description : Üben Sie hier den Zugriff auf verschiedene Datenstrukturen.
 
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:c1956471ec

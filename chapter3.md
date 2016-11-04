@@ -1,6 +1,6 @@
 ---
 title       : Funktionen
-description : Üben Sie hier den Umfang mit Funktionen
+description : Üben Sie hier den Umgang mit Funktionen.
 
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:1ed65e9ca4

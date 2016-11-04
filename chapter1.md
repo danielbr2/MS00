@@ -1,6 +1,6 @@
 ---
 title       : Datenstrukturen
-description : 
+description : Üben Sie hier den Umgang mit Datenstrukturen.
 attachments :
   slides_link : 
 
