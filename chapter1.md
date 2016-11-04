@@ -12,12 +12,11 @@ attachments :
 *** =instructions
 Geben Sie die vorliegenden Daten des Autodatensatzes jeweils als Vektor in die Software R ein.
 
+Preis: 850, 4400, 14250 
+Alter: 14, 8, 2
+Kilometer: 252000, 189000, 8600
 
-Preis       Alter (in Jahren)       Kilometer
--------     -------                 -------
-850         14                      252000
-4400        8                       189000
-14250       2                       86000
+
 
 *** =hint
 Nutzen Sie `<-`
@@ -50,22 +49,26 @@ test_object("kilometer",
             undefined_msg = "Hier hat etwas nicht geklappt. Versuchen Sie es erneut!",
             incorrect_msg = "Es wurden falsche Werte zugewiesen.")
             
-#success_msg("Good work!")            
+
 success_msg("Richtig! Weiter gehts...")
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1,3 key:7aebe50357
 ## Eingabe von Matrizen
 
-Geben Sie die vorliegenden Daten Matrix mit dem Namen 'testMatrix' ein.
+
+
+
+*** =instructions
+Geben Sie die vorliegenden Daten als Matrix ein.
 
 Preis: 850, 4400, 14250 
-
 Alter: 14, 8, 2
-
 Kilometer: 252000, 189000, 8600
 
+
 *** =hint
+cbind 
 
 *** =pre_exercise_code
 ```{r}
@@ -79,6 +82,12 @@ kilometer<-c(252000,189000,8600)
 *** =solution
 ```{r}
 testMatrix<- cbind(preis,alter,kilometer)
+```
+
+*** =sample_code
+```{r}
+# speichern Sie die Matrix unter der Variable testMatrix
+# die Vektoren aus der vorherigen Aufgabe sind bereits eingelesen, d.h. Sie können auf preis, alter und kilometer zugreifen
 ```
 
 *** =sct
@@ -96,15 +105,17 @@ success_msg("Richtig! Weiter gehts...")
 --- type:NormalExercise lang:r xp:100 skills:1,3 key:0d6d0b19b4
 ## Eingabe von Datensätzen
 
-Geben Sie die vorliegenden Daten nun als data.frame mit dem Namen 'testDataframe' ein.
+
+*** =instructions
+Geben Sie die vorliegenden Daten als data.frame ein.
 
 Preis: 850, 4400, 14250 
-
 Alter: 14, 8, 2
-
 Kilometer: 252000, 189000, 8600
 
+
 *** =hint
+data.frame()
 
 *** =pre_exercise_code
 ```{r}
@@ -118,6 +129,13 @@ kilometer<-c(252000,189000,8600)
 *** =solution
 ```{r}
 testDataframe<- data.frame(preis,alter,kilometer)
+```
+
+
+*** =sample_code
+```{r}
+# speichern Sie den data.frame unter der Variable testDataframe
+# die Vektoren aus der vorherigen Aufgabe sind bereits eingelesen, d.h. Sie können auf preis, alter und kilometer zugreifen
 ```
 
 *** =sct
