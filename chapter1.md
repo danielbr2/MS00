@@ -7,22 +7,25 @@ attachments :
 --- type:NormalExercise lang:r xp:100 skills:1,3 key:02429cb8ed
 ## Eingabe von Vektoren
 
+
+
+*** =instructions
 Geben Sie die vorliegenden Daten des Autodatensatzes jeweils als Vektor in die Software R ein.
 
-Preis: 850, 4400, 14250 
 
-Alter: 14, 8, 2
-
-Kilometer: 252000, 189000, 8600
-
-Benennen Sie die Variablen mit 'preis', 'alter' und 'kilometer'
+Preis       Alter (in Jahren)       Kilometer
+-------     -------                 -------
+850         14                      252000
+4400        8                       189000
+14250       2                       86000
 
 *** =hint
+Nutzen Sie `<-`
 
-*** =pre_exercise_code
+
+*** =sample_code
 ```{r}
-# The pre exercise code runs code to initialize the user's workspace.
-# You can use it to load packages, initialize datasets and draw a plot in the viewer
+# Benennen Sie die Variablen mit preis, alter und kilometer
 
 ```
 

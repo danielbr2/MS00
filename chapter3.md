@@ -6,11 +6,9 @@ description : Üben Sie hier den Umfang mit Funktionen
 --- type:NormalExercise lang:r xp:100 skills:1 key:1ed65e9ca4
 ## Übersicht über den Datensatz
 
-Verschaffen Sie sich einen Überblick über den Datensatz.
-
 
 *** =instructions
-Verschaffen Sie sich einen Überblick über den Datensatz.
+Lesen Sie den Datensatz ein und verschaffen Sie sich einen Überblick.
 
 *** =hint
 
@@ -21,6 +19,8 @@ datensatz<- read.csv( "http://s3.amazonaws.com/assets.datacamp.com/production/co
 
 *** =sample_code
 ```{r}
+# nutzen Sie den read.csv() Befehl
+# die erforderlichen Daten befinden sich unter http://s3.amazonaws.com/assets.datacamp.com/production/course_2115/datasets/Datensatz_A1.csv
 # nutzen Sie den summary() Befehl
 ```
 
