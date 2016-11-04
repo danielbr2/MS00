@@ -85,7 +85,7 @@ test_error()
 test_object("testMatrix",
             undefined_msg = "Hier hat etwas nicht geklappt. Versuchen Sie es erneut!",
             incorrect_msg = "Es wurden falsche Werte zugewiesen.")
-success_msg("Richtig! Weiter zur nächsten Aufgabe...")
+success_msg("Richtig! Weiter gehts...")
 ```
 
 
@@ -124,7 +124,7 @@ test_error()
 test_object("testDataframe",
             undefined_msg = "Hier hat etwas nicht geklappt. Versuchen Sie es erneut!",
             incorrect_msg = "Es wurden falsche Werte zugewiesen.")
-success_msg("Richtig! Weiter zur nächsten Aufgabe...")
+success_msg("Richtig! Weiter gehts...")
 ```
 
 
